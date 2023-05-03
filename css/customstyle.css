@@ -2,8 +2,112 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
 }
 
-body header {
-  color: 0;
+.bg-voilet-lite {
+  background-color: #E4DBEA;
+}
+
+.bg-yellow-lite {
+  background-color: #FAF6C8;
+}
+
+.bg-cyan-lite {
+  background-color: #D9F5F0;
+}
+
+.bg-blue-lite {
+  background-color: #DDEFFF;
+}
+
+.bg-pink-lite {
+  background-color: #FFDDF0;
+}
+
+.myprflio .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: none;
+}
+.myprflio .navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 5.5rem;
+  font-size: 24px;
+}
+.myprflio .navbar {
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+.myprflio .hero-banner {
+  height: auto;
+  background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.08) 28.69%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset 0px 0px 100px 20px rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(80px);
+          backdrop-filter: blur(80px);
+  border-radius: 24px;
+  padding: 86px;
+  margin-bottom: 4rem;
+}
+.myprflio .hero-banner h1 {
+  margin-bottom: 4rem;
+}
+.myprflio .hero-banner h2 {
+  margin-bottom: 1.2rem;
+}
+.myprflio .hero-banner h5 {
+  margin-bottom: 6.25rem;
+}
+.myprflio .hero-banner .myname {
+  padding-left: 0.5rem;
+  font-size: 3rem;
+}
+.myprflio .case-study-widget {
+  width: 472px;
+  height: 400px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+.myprflio .inucom-container, .myprflio .mgs-container {
+  width: 840px;
+  height: 400px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.myprflio .org-wongdoody, .myprflio .org-inucom, .myprflio .org-mgs {
+  padding: 4.5rem 0 4.5rem 0;
+}
+.myprflio .org-wongdoody h1.company-name, .myprflio .org-inucom h1.company-name, .myprflio .org-mgs h1.company-name {
+  margin-bottom: 1rem;
+}
+.myprflio .org-wongdoody p.company-role, .myprflio .org-inucom p.company-role, .myprflio .org-mgs p.company-role {
+  margin-bottom: 2.5rem;
+}
+.myprflio .org-wongdoody h6.comp-respnblty, .myprflio .org-inucom h6.comp-respnblty, .myprflio .org-mgs h6.comp-respnblty {
+  margin-bottom: 3rem;
+}
+.myprflio .org-wongdoody .row.justify-content-center.var1 {
+  margin-bottom: 2rem;
+}
+.myprflio .org-wongdoody .row.justify-content-center.var1 .bg-voilet-lite {
+  margin-right: 2rem;
+}
+.myprflio .org-wongdoody .row.justify-content-center.var1 .bg-yellow-lite {
+  margin-left: 2rem;
+}
+.myprflio .org-wongdoody .row.justify-content-center.var2 {
+  margin-top: 2rem;
+}
+.myprflio .org-wongdoody .row.justify-content-center.var2 .bg-cyan-lite {
+  margin-right: 2rem;
+}
+.myprflio .org-wongdoody .row.justify-content-center.var2 .bg-blue-lite {
+  margin-left: 2rem;
+}
+.myprflio .arrow-forward {
+  height: 12px;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 85vw;
+  }
 }
