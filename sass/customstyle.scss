@@ -89,6 +89,7 @@ min-height: calc(100vh - 500px) !important;}
 .scrollbg{
     box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.175)!important;
     background-color: #f8f9fa!important;
+    z-index: 10000;
 }
 /*about section css*/
 .position-sticky.text-black-50{
@@ -314,7 +315,7 @@ min-height: calc(100vh - 500px) !important;}
             }
     }
 }
-@media (min-width: 1400px){
+@media (min-width: 1050px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 85vw;
     }

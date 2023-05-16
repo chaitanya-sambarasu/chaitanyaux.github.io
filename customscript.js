@@ -8,4 +8,7 @@ function scrollValue() {
     }
 }
 
-window.addEventListener('scroll', scrollValue);
+const myModal = new bootstrap.Modal('#exampleModal');
+window.addEventListener('DOMContentLoaded', () => {
+    myModal.show();
+});
