@@ -48,14 +48,14 @@
                             <p>currently<span class="ux-word px-2">UX</span> <span> @  Wongdoody + Infosys</span></p>
                         </div>
                         <div class="col-md-4">
-                        <img src="assets/images/unicorn.svg" alt="no-image"></div>
+                        <img src="assets/images/unicorn.svg" alt="no-image" data-bs-placement="top" title="Tooltip on top"></div>
                     </div>             
 
                 </div>
             </div>
-            <div class="position-sticky top-0 border-bottom" id="mycareerbg">
+            <div class="position-sticky top-0 border-bottom bg-white" id="mycareerbg" style="z-index:2">
                 <div class="container">
-                    <h3 class="py-4 text-capitalize">My Career so far</h3>
+                    <h3 class="py-4 text-capitalize ">My Career so far</h3>
                 </div>
             </div>
             <div class="container case-study-sec">                
@@ -212,7 +212,7 @@
                 </div>
             
     </section>
-    <div class="container">
+    <div class="container d-none">
       <h1>Art works</h1>
       <a href="#">View all</a>
     </div>
@@ -227,7 +227,39 @@
               </div>
         </div>
       
-    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">About My Website</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img src="assets/images/loader-illustration.png" alt="no-image" class="modal-illustration">
+                    <!-- <h5>Full-Stack Designer</h5> -->
+                  </div>
+                  <div class="col-sm-6">
+                    <p>Thankyou for reaching out to my portfolio</p>
+                    <h6 class="py-3">The complete website designed and developed by self to show my full-stack design skills</h6>
+                <p class="d-none d-sm-block">This website is my tiny island in the vast sea that is the internet. Feel free to roam around - I am adding in more cool stuff as you read on.</p>
+                <p class="py-3">I <span style="color: red; padding: 0 12px;" >designed</span> my website design on Figma</h5>
+                <p class="py-3">I <span style="color: green; padding: 0 12px;"">developed</span> the designs using Bootstrap5 in Git pages</p>
+                  </div>
+                </div>
+                
+                
+        
+                
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn btn-success" data-bs-dismiss="modal">Explore my works</button>
+                <button type="button" class="btn btn-primary d-none">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
     <footer>
         
         <div class="row d-flex justify-content-center">
@@ -250,30 +282,7 @@
 </button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">About My Website</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Thankyou for reaching out to my portfolio</p>
-        <p>This website is my tiny island in the vast sea that is the internet. Feel free to roam around - I am adding in more cool stuff as you read on.</p>
-        <h6 class="py-3">The complete website designed and developed by self to show my full-stack design skills</h6>
-        <p class="py-3">I <span style="color: red; padding: 0 12px;" >designed</span> my website design on Figma</h5>
-        <p class="py-3">I <span style="color: green; padding: 0 12px;"">developed</span> the designs using Bootstrap5 in Git pages</p>
-        
 
-        
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button type="button" class="btn btn btn-success" data-bs-dismiss="modal">Explore my works</button>
-        <button type="button" class="btn btn-primary d-none">Ok</button>
-      </div>
-    </div>
-  </div>
-</div>
 
         <script src="bootstrap.bundle.min.js"></script>
         <script src="bootstrap.min.js"></script>
