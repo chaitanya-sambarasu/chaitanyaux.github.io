@@ -5,9 +5,9 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 .row>* {
-    padding-right:0px !important;
-    padding-left:0px !important;
-    margin-top:0 !important;
+    padding-right:0px;
+    padding-left:0px;
+    margin-top:0;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, ul, li, .row{
     margin: 0px;
@@ -107,7 +107,7 @@ min-height: calc(100vh - 500px) !important;}
 .list-group-item-action:focus, .list-group-item-action:hover {
     color: #0ea5e9;
 }
-@media only screen and (max-width: 767px) and (min-width: 360px){
+@media only screen and (max-width: 991px) and (min-width: 360px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 90%;
     }
@@ -429,9 +429,11 @@ min-height: calc(100vh - 500px) !important;}
             margin-top: 2rem;
             .bg-cyan-lite{
                 margin-right:2rem;
+                margin-top: 2rem;
             }
             .bg-blue-lite{
                 margin-left:2rem;
+                margin-top: 2rem;
             }
     }
     }
@@ -477,5 +479,13 @@ footer{
 }
 ul li{
     font-size: 1rem;
+}
+}
+.modal-content { 
+    border-radius: 1.3rem;
+}
+@media (min-width: 1600px){
+.modal-dialog {
+    max-width: 65vw;
 }
 }
